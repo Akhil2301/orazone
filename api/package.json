@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DEV nodemon app.js",
+    "start": "cross-env NODE_ENV=PROD node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "async-handler": "^0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^5.3.1",
+    "mongoose": "^6.6.1",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^6.7.8"
+  },
+  "description": ""
+}
